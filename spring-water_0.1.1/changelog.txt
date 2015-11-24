@@ -1,0 +1,9 @@
+v0.1.1	2015-08-02
+~ Fixed high load causing temperature drop
+
+v0.1.0	2015-08-02
+~ Spring water is now pumped at 100 degrees
+
+v0.0.1	2015-08-02
++ Added spring water resource
++ Added spring water to autoplace

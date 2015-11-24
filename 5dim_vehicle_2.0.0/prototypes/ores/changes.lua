@@ -1,0 +1,11 @@
+data.raw.item["wooden-chest"].subgroup = "store-solid"
+data.raw.item["wooden-chest"].order = "a"
+data.raw.item["iron-chest"].subgroup = "store-solid"
+data.raw.item["iron-chest"].order = "b"
+data.raw.item["steel-chest"].subgroup = "store-solid"
+data.raw.item["steel-chest"].order = "c"
+data.raw.item["smart-chest"].subgroup = "store-solid"
+data.raw.item["smart-chest"].order = "d"
+data.raw.item["storage-tank"].subgroup = "store-liquid"
+data.raw.item["storage-tank"].order = "a"
+

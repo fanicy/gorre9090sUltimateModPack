@@ -1,0 +1,10 @@
+
+{
+"name": "yi_railway",
+"title": "Yuoki Industries - Railways",
+"version": "0.0.4",
+"date": "2015-10-19",
+"author": "Yuoki Tani",
+"dependencies": ["base >= 0.12", "Yuoki >= 0.2.37"],
+"description": "decorative railway mod"
+}

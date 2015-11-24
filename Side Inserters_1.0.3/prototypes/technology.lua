@@ -1,0 +1,6 @@
+table.insert(data.raw["technology"]["logistics"].effects,{type = "unlock-recipe",recipe = "fast-inserter-left"})
+table.insert(data.raw["technology"]["logistics"].effects,{type = "unlock-recipe",recipe = "fast-inserter-right"})
+table.insert(data.raw["technology"]["automation"].effects,{type = "unlock-recipe",recipe = "long-handed-inserter-left"})
+table.insert(data.raw["technology"]["automation"].effects,{type = "unlock-recipe",recipe = "long-handed-inserter-right"})
+table.insert(data.raw["technology"]["electronics"].effects,{type = "unlock-recipe",recipe = "smart-inserter-left"})
+table.insert(data.raw["technology"]["electronics"].effects,{type = "unlock-recipe",recipe = "smart-inserter-right"})

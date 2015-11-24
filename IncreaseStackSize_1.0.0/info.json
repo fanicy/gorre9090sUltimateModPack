@@ -1,0 +1,11 @@
+
+{
+  "name": "IncreaseStackSize",
+  "version": "1.0.0",
+  "title": "IncreaseStackSize",
+  "author": "gorre9090",
+  "contact": "gorre9090 on the Factorio forums",
+  "homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=14&t=8824",
+  "description": "Increase a lot of different stack sizes",
+  "dependencies": ["base"]
+}

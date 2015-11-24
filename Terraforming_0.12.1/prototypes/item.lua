@@ -1,0 +1,150 @@
+data:extend({
+{
+	type = "item-group",
+	name = "terraforming",
+	order = "f",
+	inventory_order = "a",
+	icon = "__Terraforming__/graphics/group/terraforming.png",
+},
+{
+	type = "item-subgroup",
+	name = "machines",
+	group = "terraforming",
+	order = "a"
+},
+{
+	type = "item-subgroup",
+	name = "features",
+	group = "terraforming",
+	order = "b"
+},
+{
+	type = "item-subgroup",
+	name = "water-barrel",
+	group = "terraforming",
+	order = "c"
+},
+{
+	type = "item-subgroup",
+	name = "drawbridge",
+	group = "terraforming",
+	order = "d"
+},
+{
+	type = "item",
+	name = "bridge-builder",
+	icon = "__Terraforming__/graphics/icon/bridge-builder.png",
+	flags = { "goes-to-quickbar" },
+	group = "terraforming",
+	subgroup = "machines",
+	place_result="bridge-builder",
+	order= "a[machines]-a[bridge-builder]",
+	stack_size= 1,
+},
+{
+	type = "item",
+	name = "moat-digger",
+	icon = "__Terraforming__/graphics/icon/moat-digger.png",
+	flags = { "goes-to-quickbar" },
+	group = "terraforming",
+	subgroup = "machines",
+	place_result="moat-digger",
+	order= "a[machines]-b[moat-digger]",
+	stack_size= 1,
+},
+{
+	type = "item",
+	name = "ford",
+	icon = "__Terraforming__/graphics/icon/ford.png",
+	flags = {"goes-to-main-inventory", "hidden"},
+	group = "terraforming",
+	subgroup = "features",
+	order= "b[features]-a[bridge1]",
+	stack_size= 1,
+},
+{
+	type = "item",
+	name = "stone-bridge",
+	icon = "__Terraforming__/graphics/icon/stone-bridge.png",
+	flags = {"goes-to-main-inventory", "hidden"},
+	group = "terraforming",
+	subgroup = "features",
+	order= "b[features]-b[bridge2]",
+	stack_size= 1,
+},
+{
+	type = "item",
+	name = "concrete-bridge",
+	icon = "__Terraforming__/graphics/icon/concrete-bridge.png",
+	flags = {"goes-to-main-inventory", "hidden"},
+	group = "terraforming",
+	subgroup = "features",
+	order= "b[features]-c[bridge3]",
+	stack_size= 1,
+},
+{
+	type = "item",
+	name = "moat",
+	icon = "__Terraforming__/graphics/icon/moat.png",
+	flags = {"goes-to-main-inventory", "hidden"},
+	group = "terraforming",
+	subgroup = "features",
+	order= "b[features]-d[moat1]",
+	stack_size= 1,
+},
+{
+	type = "item",
+	name = "stone-moat",
+	icon = "__Terraforming__/graphics/icon/stone-moat.png",
+	flags = {"goes-to-main-inventory", "hidden"},
+	group = "terraforming",
+	subgroup = "features",
+	order= "b[features]-e[moat2]",
+	stack_size= 1,
+},
+{
+	type = "item",
+	name = "concrete-moat",
+	icon = "__Terraforming__/graphics/icon/concrete-moat.png",
+	flags = {"goes-to-main-inventory", "hidden"},
+	group = "terraforming",
+	subgroup = "features",
+	order= "b[features]-f[moat3]",
+	stack_size= 1,
+},
+
+{
+	type = "item",
+	name = "water-barrel",
+	icon = "__Terraforming__/graphics/icon/water-barrel.png",
+	flags = {"goes-to-main-inventory"},
+	subgroup = "water-barrel",
+	order = "c[water-barrel]-a[item]",
+	stack_size = 20
+},
+
+{
+	type = "item",
+	name = "draw-bridge",
+	icon = "__Terraforming__/graphics/icon/draw-bridge.png",
+	flags = {"goes-to-quickbar"},
+	group = "terraforming",
+	subgroup = "drawbridge",
+	order = "a[item]-b[draw-bridge]",
+	place_result = "draw-bridge",
+	stack_size = 50
+},
+
+{
+	type = "item",
+	name = "rail-bridge",
+	icon = "__Terraforming__/graphics/icon/rail-bridge.png",
+	flags = {"goes-to-quickbar"},
+	group = "terraforming",
+	subgroup = "drawbridge",
+	order = "a[item]-b[rail-bridge]",
+	place_result = "rail-bridge",
+	stack_size = 50
+},
+
+})

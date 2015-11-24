@@ -1,0 +1,8 @@
+{
+	"name":"F-ResourcePiles",
+	"author":"ficolas, Kajanor",
+	"version":"1.0.0",
+	"title":"Resource Piles",
+	"description":"Large storages to store only ores, coal, and stone. Derived from the former F mod's stone and salt pile.",
+	"dependencies": ["base >= 0.12.0"]
+}

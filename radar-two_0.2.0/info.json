@@ -1,0 +1,11 @@
+
+{
+  "name": "radar-two",
+  "version": "0.2.0",
+  "title": "Radar 2.0",
+  "author": "Loren1350",
+  "contact": "Schmendrick on the Factorio forums",
+  "homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=14&t=12168",
+  "description": "Adds new types and tiers of advanced radar.",
+  "dependencies": ["base"]
+}

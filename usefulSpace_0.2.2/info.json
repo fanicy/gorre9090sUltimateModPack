@@ -1,0 +1,9 @@
+{
+  "name": "usefulSpace",
+  "version": "0.2.2",
+  "title": "Useful Space",
+  "author": "Jorgen Re",
+  "homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=32&t=12623",
+  "dependencies": ["base >= 0.12.11"],
+  "description": "Tired of sending rockets to space for no gain other than an increasing score!?"
+}

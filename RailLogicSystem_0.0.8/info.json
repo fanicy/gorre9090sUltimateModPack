@@ -1,0 +1,9 @@
+{
+  "name": "RailLogicSystem",
+  "version": "0.0.8",
+  "title": "RailLogicSystem",
+  "author": "XCodersTeam",
+  "homepage": "",
+  "dependencies": ["base"],
+  "description": "Control railroad with circuit network? Easy."
+}
