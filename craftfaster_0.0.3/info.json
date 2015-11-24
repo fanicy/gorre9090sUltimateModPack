@@ -1,0 +1,11 @@
+
+{
+  "name": "craftfaster",
+  "version": "0.0.3",
+  "title": "Craft Faster",
+  "author": "Loren1350 & MagicLegend (0.12.x port)",
+  "contact": "Schmendrick on the Factorio forums for old support. MagicLegend for 0.12+ support.",
+  "homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=14&t=12787",
+  "description": "Adds research to accelerate manual crafting.",
+  "dependencies": ["base > 0.12.0"]
+}

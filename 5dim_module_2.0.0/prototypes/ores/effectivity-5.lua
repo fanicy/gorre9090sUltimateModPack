@@ -1,0 +1,33 @@
+data:extend({
+-- Item
+  {
+    type = "module",
+    name = "5d-effectivity-module-5",
+    icon = "__5dim_module__/graphics/icon/v5.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "effectivity",
+    order = "e",
+    stack_size = 50,
+    default_request_amount = 10,
+    effect = { consumption = {bonus = -0.75}}
+  },
+
+--Recipe
+  {
+    type = "recipe",
+    name = "5d-effectivity-module-5",
+    enabled = false,
+    ingredients =
+    {
+      {"5d-effectivity-module-4", 5},
+      {"advanced-circuit", 5},
+      {"processing-unit", 5},
+      {"5d-gold-circuit", 5},
+      {"alien-artifact", 1}
+    },
+    energy_required = 90,
+    result = "5d-effectivity-module-5"
+  },
+
+--Entity
+})

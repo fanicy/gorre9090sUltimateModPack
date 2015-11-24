@@ -1,0 +1,10 @@
+{
+  "name": "spring-water",
+  "version": "0.1.1",
+  "title": "Geothermal Springs",
+  "author": "NimbusIncorporated",
+  "contact": "http://www.factorioforums.com/forum/memberlist.php?mode=viewprofile&u=8937",
+  "homepage": "",
+  "description": "Mod that adds geothermal water springs to Factorio",
+  "dependencies": ["base >= 0.12.2"]
+}

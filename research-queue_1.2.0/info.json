@@ -1,0 +1,10 @@
+{
+ "name": "research-queue", 
+ "version": "1.2.0", 
+ "title": "Research queue", 
+ "author": "Mr Doomah", 
+ "contact": "http://www.factorioforums.com/forum/memberlist.php?mode= viewprofile&u=7604", 
+ "homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=92&t=17219", 
+ "description": "Allows a queue of research.", 
+ "dependencies": ["base >= 0.12.12", "? bobmodules >= 0.12.8", "? bobenemies >= 0.12.5"]
+}

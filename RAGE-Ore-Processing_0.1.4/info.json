@@ -1,0 +1,10 @@
+{
+	"name":"RAGE-Ore-Processing",
+	"version":"0.1.4",
+	"title":"R.A.G.E. Ore Processing",
+	"author":"Rage",
+	"description":"A resource amplification mod.",
+	"license":"http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+	"homepage":"http://www.factorioforums.com/forum/viewtopic.php?f=94&t=15059",
+	"dependencies":["base >= 0.12.0"]
+}	

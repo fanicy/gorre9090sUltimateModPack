@@ -1,0 +1,11 @@
+
+{
+  "name": "LongElectricBoiler",
+  "version": "0.12.3",
+  "title": "Long's Electric Boiler",
+  "author": "Long Doan (aka johanwanderer)",
+  "dependencies": ["base"],
+  "contact": "http://www.factorioforums.com/forum/viewtopic.php?t=13381",
+  "homepage": "http://www.factorioforums.com/forum/viewtopic.php?t=13381",
+  "description": "Eletric boiler to store extra solar power as steam"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "SupremeWarfare",
+  "version": "1.0.5",
+  "title": "SpeedyBrain's SupremeWarfare",
+  "author": "SpeedyBrain",
+  "contact": "@SpeedyBrain",
+  "homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=14&t=12447",
+  "description": "What a big gun...",
+  "dependencies": ["base >= 0.12.1","? MAIN-DyTech-War >= 1.1.0"]
+}
