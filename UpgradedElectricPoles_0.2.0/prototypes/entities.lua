@@ -4,7 +4,7 @@ data:extend({
     name = "upgraded-small-electric-pole",
     icon = "__base__/graphics/icons/small-electric-pole.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "small-electric-pole"},
+    minable = {hardness = 0.2, mining_time = 0.5, result = "upgraded-small-electric-pole"},
     max_health = 35,
     corpse = "small-remnants",
     collision_box = {{-0.15, -0.15}, {0.15, 0.15}},
@@ -94,7 +94,7 @@ data:extend({
     name = "upgraded-big-electric-pole",
     icon = "__base__/graphics/icons/big-electric-pole.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "big-electric-pole"},
+    minable = {hardness = 0.2, mining_time = 0.5, result = "upgraded-big-electric-pole"},
     max_health = 150,
     corpse = "medium-remnants",
     resistances =
@@ -191,7 +191,7 @@ data:extend({
     name = "upgraded-medium-electric-pole",
     icon = "__base__/graphics/icons/medium-electric-pole.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "medium-electric-pole"},
+    minable = {hardness = 0.2, mining_time = 0.5, result = "upgraded-medium-electric-pole"},
     max_health = 100,
     corpse = "small-remnants",
     resistances =
