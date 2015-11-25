@@ -1,0 +1,9 @@
+{
+	"name":"SmartSplitters",
+	"author":"gorre9090",
+	"version":"0.12.17",
+	"title":"SmartSplitters",
+	"homepage":"",
+	"description":"Smart Splitters.",
+	"dependencies": ["base"]
+}

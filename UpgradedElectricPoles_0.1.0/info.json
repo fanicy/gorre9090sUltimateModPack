@@ -1,0 +1,9 @@
+{
+	"name":"UpgradedElectricPoles",
+	"author":"gorre9090",
+	"version":"0.1.0",
+	"title":"Upgraded Electric Poles",
+	"homepage":"",
+	"description":"Upgraded Electric Poles",
+	"dependencies": ["base"]
+}
