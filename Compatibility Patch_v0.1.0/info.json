@@ -1,0 +1,10 @@
+{
+  "name": "Compatibility Patch",
+  "version": "0.1.0",
+  "title": "Compatibility Patch",
+  "author": "gorre9090",
+  "contact": "gorre9090",
+  "homepage": "",
+  "description": "Fixes compatebility issues between mods",
+  "dependencies": ["base"]
+}
