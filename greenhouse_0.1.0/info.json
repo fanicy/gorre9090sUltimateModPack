@@ -1,0 +1,9 @@
+{
+  "name": "greenhouse",
+  "version": "0.1.0",
+  "title": "Greenhouse",
+  "author": "SpeedDaemon",
+  "contact": "http://www.factorioforums.com/forum/memberlist.php?mode=viewprofile&u=7396",
+  "description": "Simple non-laggy wood-production facility.",
+  "dependencies": ["base >= 0.12.0"]
+}

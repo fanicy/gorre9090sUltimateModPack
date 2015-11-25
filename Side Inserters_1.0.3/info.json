@@ -1,0 +1,8 @@
+{
+	"name": "Side Inserters",
+	"version": "1.0.3",
+	"title": "Side Inserters",
+	"author": "GotLag, YuokiTani, Cartmen180",
+	"description": "Adds left and right versions of each inserter.",
+	"dependencies": ["base >= 0.11.22"]
+}

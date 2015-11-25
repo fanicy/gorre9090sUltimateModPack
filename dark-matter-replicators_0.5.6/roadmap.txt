@@ -1,0 +1,17 @@
+Roadmap:
+	0.5.7 - The Modules Update, part 3 - DyTech Modules Compatibility
+		Add replication of DyTech modules should they be enabled and Bob Modules disabled
+	0.5.8 - The Parts Update
+		Add replication of lithium oxide (as an ore) as well as lithium (just for completeness sake)
+		Make it so that if one of this mod's optional prerequisites changes requires the iron composition or the cooking time of steel then the steel_cost will be changed as well
+		Make it so that if both Bob's Electronics and Bob's Plates are detected then the complexity of creating the replicator lab items is increased and requires new metals and alloys
+		Add replication of Bob alloys and ceramics
+		Add replication of DyTech intermediaries (capacitors, blades, rotors, frames and exits)
+	0.5.9+
+		Add replication of Evolution's alien bioconstructs/fragments/etc
+		Add replication of mocombat's depleted magazines, tesla towers, force field wall posts and other such things
+		Make the replication recipe images appear in the correct order even when DyTech is being used
+		Check out Doublespin's "recursive calculated replication system" from the other fork of the replicators mod
+			Credit him in info.json if it is used
+		Add replication of alloy and ceramic shapes (including steel) if doing so doesn't cause too much clutter
+		Create individual borders for the different device levels

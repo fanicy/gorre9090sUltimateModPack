@@ -1,0 +1,87 @@
+Changelog:
+	0.4.0
+		Version was both the first 0.12 compatible version and the first public release.
+	0.4.1
+		DyTech ores are plates are now working again. You can still use this mod without DyTech.
+	0.4.2
+		Now Youki resources can be replicated as well. You do not need Youki to use this mod either, it is also an optional dependency.
+	0.4.3
+		Some recipes tweaked
+		Advanced belt replication added
+		There should be fewer technical problems when used with other mods
+		Also, I have now realized the need for changelogs which are made as the changes are made and will start writing down my changes for later versions of this mod.
+	0.4.4
+		Created text files for changelog and roadmap
+		Made basic and advanced electric poles into unconnected technologies
+		Reduced the number of times that Factorio's data table is extended when making a new recipe (though this probably doesn't matter)
+		Caused tenemut to be found in smaller deposits and to only be linked to stone
+		Made it possible for a replication technology to have more than one item assigned to it
+		Merged the rail replication technologies
+		Merged the replication technologies for both the advanced electric poles
+		Modified the item existence checker so that it can recognize items of the repair-tool, mining-tool and deconstruction-item item types
+		Got repair pack replication working as a result
+		Merged the replication techs for Yuoki pure elements into their equivalent plates
+		Cleaned up the category icon for replication recipes
+	0.5.0
+		Made the recipes for crafting the replicators themselves appear in the right order
+		Added bob ores and plates to replication
+		Made different borders for the different types of replication (but it looks hideous and I will need to do it again)
+		Removed the 600 that appears in the lower right corner of the lava technology icon
+		Added replication of mopower uranium
+		Modified Science Pack 1 replication to use stone gears if DyTech is active
+		Added replication of Treefarm pharmaceuticals and replaced the late-game wood replication with a Treefarm germling
+		Broke the recipes up into subcategories based on replication type and then have them ordered within those subcategories by tier first and internal name second
+		Removed numbers from science pack replication tech names so that all such techs are displayed at once
+		Put numbers at the end of the tech names for pure elements so that their atomic numbers appear alongside their tech pictures
+		Added replication of Bob elemental fluids
+		Added replication of Landfill items
+		Remade the gem replication system yet again
+		Set the cost of transport belts to change depending on whether or not DyTech is enabled
+	0.5.1
+		Added an explosives_cost value to the replication recipes so that changing the energy cost of explosives will change the energy cost of every replication which uses explosives as well
+		Rebalanced uranium costs
+		Changed the tungsten ore photo to the right one
+		Added titanium (how did I miss that?)
+		Rebalanced the costs of sulfur, plastic, explosives and everything which uses them as ingredients
+		Increased the density of tenemut clusters without changing their overall size
+		Rebalanced the costs of the ores, plates and fluids added by various mods
+	0.5.2 - The Bob's Electronic Override Update
+		Created a new particle effect for use when mining tenemut manually
+		Minor balancing adjustments
+		Moved the actual replication below its related recipes
+		Added replication of chain signals as a replicable type of rail signal
+		Added replication of wind turbines from mopower
+		Moved the recipe for replication labs onto the row containing the recipes for making replicators
+		Reordered and sectioned up the replication recipe/tech file to make it easier to follow
+		Set module recipes to use DyTech module related costs if DyTech modules are enabled
+		Added replication of logic diamond processors
+		Made the different types of replication into actual subcategories
+		Added replication of resin, rubber and solder
+		Add replication of Bob circuits and their related components
+	0.5.3 - Various Bug Fixes
+		Tweaked CPU replication so that it requires the technology to produce actual CPUs
+		Removed the accidental requirement of tenemut replication for the replication of solder
+		Fixed detection of bob's electric override
+		Added an explanation for the solder name
+		Fixed the prerequisites for electric override components
+		Removed the original name of solder replication and its attempted justification
+		Fix the prerequisites for replicating defender capsules
+	0.5.4 - The Bob Electronics Update Update
+		Fixed the prerequisites for replicating sulfuric acid
+		Added a new recipe for basic circuit boards
+		Added a real recipe for basic electronics boards
+		Made inserter and repair pack replication require basic circuit board replication instead of basic electronic board replication
+	0.5.5 - The Modules Update, part 1 - Vanilla Complete
+		Made the replication cost of toxic dust non-arbitrary
+		Moved the recipe for replication labs onto the start of their row
+		Made different borders for the different tiers of device replication
+		Added a special replication category exclusively for modules
+		Added replication of higher tiers of vanilla modules
+		Started work on adding more support for DyTech modules
+		Commented out DyTech module replication until I can actually test my work on it
+		Made it so that tenemut is found in small, dense clusters
+	0.5.6 - The Modules Update, part 2 - Bob Modules Compatibility
+		Added replication of Bob module components
+		Removed all instances of Thumbs.db from the mod files in order to save space
+		Added replication of Bob modules
+		Add support for using productivity affecting modules with replicators (so any leftover raw productivity modules or god modules can be inserted into replicators or nearby beacond)

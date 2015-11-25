@@ -1,0 +1,9 @@
+{
+  "name": "dark-matter-replicators",
+  "version": "0.5.6",
+  "title": "Dark Matter Replicators",
+  "author": "TempiDrachen (earlier versions by jamupsi)",
+  "homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=120&t=14040",
+  "description": "Adds replicators which can produce items using only electricity.  The existence of this version of Replicators is not meant to be disrespectful in any way to darkshadow1809 or Doublespin.  Back when the replicators mod was first abandoned I made my own version based on my own preferences, and seeing what darkshadow1809 and Doublespin have done with the mod inspired me to make even more changes.",
+  "dependencies": ["? CORE-DyTech-Core >= 1.2.0", "? MAIN-DyTech-Machine >= 1.1.0", "? Yuoki >= 0.2.31", "? bobores >= 0.12.1", "? bobplates >= 0.12.1", "? bobmodules >= 0.12.8", "? bobelectronics >= 0.12.2", "? mopower >= 0.3.02", "? Treefarm-Lite >= 0.2.0", "? Treefarm-AC >= 0.2.0", "? Landfill >= 2.1.5"]
+}

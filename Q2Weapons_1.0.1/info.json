@@ -1,0 +1,9 @@
+
+{
+  "name": "Q2Weapons",
+  "version": "1.0.1",
+  "title": "Quake 2 Weapons",
+  "author": "HeyRevolver, Updated by Atom to 0.12.X",
+    "description": "A small weapons pack that adds my three favorite video game weapons of all time,(the Quake 2 Railgun, Rocket Launcher, and Super Shotgun), to Factorio. They are tuned for late game use and will be the only three weapons you ever need!",
+  "dependencies": ["base"]
+}
