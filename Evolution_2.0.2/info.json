@@ -1,9 +1,0 @@
-{
-	"name":"Evolution",
-	"author":"Darkshadow1809",
-	"version":"2.0.2",
-	"title":"Evolution",
-	"homepage":"http://www.factorioforums.com/forum/viewforum.php?f=60",
-	"description":"Unofficial patch by Vedrit. Look at flesh, See only potential. Strands, sequences, twisting, separating, joining. See how it could be better.",
-	"dependencies": ["base"]
-}

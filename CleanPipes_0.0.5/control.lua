@@ -1,6 +1,6 @@
 require "defines"
 
-game.onevent(defines.events.onbuiltentity, function(event)
+script.on_event(defines.events, function(event)
 	if event.createdentity.name == "cleanpipe-p" then
 		PipePPlaced(event.createdentity)
 	elseif event.createdentity.name == "cleanpipe-p2" then
