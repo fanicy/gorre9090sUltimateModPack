@@ -1,0 +1,11 @@
+
+{
+  "name": "LongLargeChests",
+  "version": "0.12.11",
+  "title": "Long's Large Chests Mod",
+  "author": "Long Doan (aka johanwanderer)",
+  "dependencies": ["base"],
+  "contact": "http://www.factorioforums.com/forum/viewtopic.php?t=13312",
+  "homepage": "http://www.factorioforums.com/forum/viewtopic.php?t=13312",
+  "description": "Larger size chests (2x2, 3x3, 5x5) that can be filtered."
+}

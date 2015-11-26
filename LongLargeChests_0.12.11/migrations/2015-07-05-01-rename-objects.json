@@ -1,0 +1,18 @@
+{
+  "entity":
+  [
+    ["steel-chest-three-by-three", "ldLC-chest-3x3"]
+  , ["steel-chest-three-by-three-obj", "ldLC-chest-3x3-obj"]
+  , ["steel-chest-five-by-five", "ldLC-chest-5x5"]
+  , ["steel-chest-five-by-five-obj", "ldLC-chest-5x5-obj"]
+  , ["temporary-rail", "ldLC-temporary-rail"]
+  ],
+  "item":
+  [
+    ["steel-chest-three-by-three", "ldLC-chest-3x3"]
+  , ["steel-chest-three-by-three-obj", "ldLC-chest-3x3-obj"]
+  , ["steel-chest-five-by-five", "ldLC-chest-5x5"]
+  , ["steel-chest-five-by-five-obj", "ldLC-chest-5x5-obj"]
+  , ["temporary-rail", "ldLC-temporary-rail"]
+  ]
+}

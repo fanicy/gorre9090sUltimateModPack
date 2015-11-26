@@ -1,0 +1,92 @@
+I have always wanted to build a factory without using (much) transport belts, but that requires large (dimension-wise, not storage-wise) chests that can reserve its slots for various types of items.
+
+Searching the forum does not result in any hits, so I decided to roll one myself.
+Version 0.11.5 works in multiplayer mode.
+Version 0.12.6 works in Factorio 0.12.0.
+
+Enjoy! And let me know if it works/doesn't work for you.
+Long.
+
+
+Type: Mod
+Name: Long's Large Chests Mod
+Description: Larger size chests (2x2, 3x3, 5x5) that can be filtered.
+License: http://opensource.org/licenses/MIT
+Version: 0.12.6
+Release: 2015-07-20
+Tested-With-Factorio-Version: 0.12.0
+Category: SimpleExtension
+Tags: Storage
+Website: [url]http://www.factorioforums.com/forum/viewtopic.php?t=13312[/url]
+Download-Url: [attachment=0]LongLargeChests_0.12.7.zip[/attachment]
+[attachment=3]LongLargeChests_0.11.5.zip[/attachment]
+
+*Note: please use version 0.12.x for Factorio 0.12.x, and version 0.11.x for Factorio version 0.11.x.
+
+[spoiler=License][size=150]License[/size]
+The MIT License (MIT)
+
+Copyright (c) 2015 Long Doan
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+http://opensource.org/licenses/MIT[/spoiler]
+
+[spoiler=Long description][size=150]Long description[/size]
+I have always wanted to build a factory without using (much) transport belts, but that requires large (dimension-wise, not storage-wise) chests that can reserve its slots for various types of items.
+
+Searching the forum does not result in any hits, so I decided to roll one myself.
+Version 0.11.5 works in multiplayer mode.[/spoiler]
+
+[spoiler=Pictures][size=150]Pictures[/size]
+This is how I envision a module-factory would look (except that the large 5x5 chest would be fed directly from the train and not by requester chests.)
+[attachment=7]screenshot-1-small.png[/attachment][/spoiler]
+More screenshots: http://www.factorioforums.com/forum/viewtopic.php?t=13312#p89570
+
+[spoiler=Version history][size=150]Version history[/size]
+   - Version 0.0.1: Initial version based on steel chests
+     - Provides 1x3, 2x3, 3x3, 1x5, 2x5, 3x5, and 5x5 chests. Not filterable.
+
+   - Version 0.0.2: Rework to base on cargo wagons.
+     - Removes the 1x3, 2x3, 1x5, 2x5, and 3x5 chests.
+
+   - Version 0.0.3: Allow chests to be placed off-grid via temporary rail segments.
+     - Chests can now be placed without placing rail.
+
+   - Version 0.11.4: Re-version to match Factorio's version requirements, i.e. 0.11.x will work with Factorio 0.11.x.
+     - Add 2x2 chest.
+     - Rename entities, etc. via migration scripts.
+
+   - Version 0.11.5: Add multiplayer support.
+     - Fix ghost-build bug.
+
+   - Version 0.12.5: Rework for Factorio 0.12.x.
+
+   - Version 0.12.6: Programatically generate entities.
+     - Decrease requirements from steel chests (plus rail tech) to iron chests to allow earlier usage.
+
+   - Version 0.12.7: Hide the non-item items.[/spoiler]
+Full changelog: http://www.factorioforums.com/forum/viewtopic.php?t=13312#p89568 (and in changelog.txt within the mod itself).
+
+[spoiler=Previous versions][attachment=1]LongLargeChests_0.12.6.zip[/attachment]
+[attachment=2]LongLargeChests_0.12.5.zip[/attachment]
+[attachment=4]LongLargeChests_0.11.4.zip[/attachment]
+[attachment=5]LongLargeChests_0.0.3.zip[/attachment]
+[attachment=6]LongLargeChests_0.0.2.zip[/attachment][/spoiler]
