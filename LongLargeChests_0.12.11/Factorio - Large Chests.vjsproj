@@ -1,0 +1,92 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{519CE5F9-ECB5-446F-93F4-EC549B8F1E9D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>Factorio___Large_Chests</RootNamespace>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>Factorio - Large Chests</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="control.lua" />
+    <None Include="data.lua" />
+    <None Include="info.json" />
+    <None Include="locale\en\entity-descriptions.cfg" />
+    <None Include="locale\en\entity-names.cfg" />
+    <None Include="locale\en\item-descriptions.cfg" />
+    <None Include="locale\en\item-names.cfg" />
+    <None Include="locale\en\technology-names.cfg" />
+    <None Include="migrations\2015-07-05-01-rename-objects.json" />
+    <None Include="migrations\2015-07-05-02-fix-recipes.lua" />
+    <None Include="config\chests.lua" />
+    <None Include="prototypes\entity\entities.lua" />
+    <None Include="prototypes\item\items.lua" />
+    <None Include="prototypes\recipe\recipies.lua" />
+    <None Include="prototypes\technology\technology.lua" />
+    <None Include="utils\ldUtils.lua" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="changelog.txt" />
+    <Content Include="forum_description.txt" />
+    <Content Include="graphics\entities\ldLC-chest-2x2.png" />
+    <Content Include="graphics\entities\ldLC-chest-3x3.png" />
+    <Content Include="graphics\entities\ldLC-chest-5x5.png" />
+    <Content Include="graphics\entities\steel-chest-one-by-five.png" />
+    <Content Include="graphics\entities\steel-chest-one-by-three.png" />
+    <Content Include="graphics\entities\steel-chest-three-by-five.png" />
+    <Content Include="graphics\entities\steel-chest-two-by-five.png" />
+    <Content Include="graphics\entities\steel-chest-two-by-three.png" />
+    <Content Include="graphics\icons\ldLC-chest-2x2.png" />
+    <Content Include="graphics\icons\ldLC-chest-3x3.png" />
+    <Content Include="graphics\icons\ldLC-chest-5x5.png" />
+    <Content Include="graphics\icons\steel-chest-one-by-five.png" />
+    <Content Include="graphics\icons\steel-chest-one-by-three.png" />
+    <Content Include="graphics\icons\steel-chest-three-by-five.png" />
+    <Content Include="graphics\icons\steel-chest-two-by-five.png" />
+    <Content Include="graphics\icons\steel-chest-two-by-three.png" />
+    <Content Include="graphics\screenshot-1.png" />
+    <Content Include="graphics\screenshot-2.png" />
+    <Content Include="graphics\technology\large_chests.png" />
+    <Content Include="license.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualJSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

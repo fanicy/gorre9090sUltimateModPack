@@ -1,0 +1,26 @@
+Change log:
+===========
+   - Version 0.0.1: Initial version based on steel chests
+     - Provides 1x3, 2x3, 3x3, 1x5, 2x5, 3x5, and 5x5 chests. Not filterable.
+
+   - Version 0.0.2: Rework to base on cargo wagons.
+     - Removes the 1x3, 2x3, 1x5, 2x5, and 3x5 chests.
+
+   - Version 0.0.3: Allow chests to be placed off-grid via temporary rail segments.
+     - Chests can now be placed without placing rail.
+
+   - Version 0.11.4: Re-version to match Factorio's version requirements, i.e. 0.11.x will work with Factorio 0.11.x.
+     - Add 2x2 chest.
+     - Rename entities, etc. via migration scripts.
+
+   - Version 0.11.5: Add multiplayer support.
+     - Fix ghost-build bug.
+
+   - Version 0.12.5: Work with Factorio 0.12.x
+
+   - Version 0.12.6: Programatically generate entities.
+     - Decrease requirements from steel chests (plus rail tech) to iron chests to allow earlier usage.
+
+   - Version 0.12.7: Hide the non-item items.
+
+   - Version 0.12.11: Make the mod compatible with Factorio 0.12.11 and later.

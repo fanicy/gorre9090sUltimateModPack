@@ -1,0 +1,9 @@
+{
+	"name":"CleanPipes",
+	"author":"ThaPear",
+	"version":"0.0.4",
+	"title":"CleanPipes",
+	"homepage":"",
+	"description":"Build clean pipe systems, just the way you like them!",
+	"dependencies": ["base"]
+}

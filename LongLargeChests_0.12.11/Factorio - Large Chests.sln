@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E6FDF86B-F3D1-11D4-8576-0002A516ECE8}") = "Factorio - Large Chests", "Factorio - Large Chests.vjsproj", "{519CE5F9-ECB5-446F-93F4-EC549B8F1E9D}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Factorio\u0020-\u0020Large\u0020Chests.vjsproj
+		SccLocalPath1 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{519CE5F9-ECB5-446F-93F4-EC549B8F1E9D}.Debug|x86.ActiveCfg = Debug|x86
+		{519CE5F9-ECB5-446F-93F4-EC549B8F1E9D}.Debug|x86.Build.0 = Debug|x86
+		{519CE5F9-ECB5-446F-93F4-EC549B8F1E9D}.Release|x86.ActiveCfg = Release|x86
+		{519CE5F9-ECB5-446F-93F4-EC549B8F1E9D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
