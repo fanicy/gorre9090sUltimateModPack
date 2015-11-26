@@ -18,9 +18,9 @@ function debug(str, statement)
 	end
 	if log_everything then log(str, statement) end
 end
-log_everything = true -- keep this true all times! only disable if the game lags. the info it generates is needed by the DyTech Team to debug your savegame if an bug or error happens!
+log_everything = false -- keep this true all times! only disable if the game lags. the info it generates is needed by the DyTech Team to debug your savegame if an bug or error happens!
 function log(str, statement)
-local seconds = math.floor(game.tick/60)
+local seconds = math.floor(current_time/60)
 local minutes = math.floor(seconds/60)
 local hours = math.floor(minutes/60)
 	if not global.Log then global.Log = {} end
