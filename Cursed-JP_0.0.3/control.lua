@@ -1,6 +1,6 @@
 require("defines")
 
-game.on_init(function()
+script.on_init(function()
 	for k,force in pairs(game.forces) do
 		if force.technologies["basic-exoskeleton-equipment"].researched == true then
 			force.technologies["cursed-jp"].enabled = true
@@ -13,7 +13,7 @@ game.on_init(function()
 end)
 
 
-game.on_event(defines.events.on_tick, function(event)
+script.on_event(defines.events.on_tick, function(event)
 	if event.tick % 60 == 0 then
 		for _,player in ipairs(game.players) do
 			if not (player.character.cursor_stack.valid_for_read and player.character.cursor_stack.type == "armor") then
@@ -43,7 +43,7 @@ game.on_event(defines.events.on_tick, function(event)
 end)
 
 
-game.on_event(defines.events.on_player_created, function(event)
+script.on_event(defines.events.on_player_created, function(event)
 	local player = game.get_player(event.player_index)
 	if global.cursedJP[player.index] == nil then
 		global.cursedJP[player.index] = false
