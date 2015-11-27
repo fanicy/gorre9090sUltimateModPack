@@ -12,9 +12,9 @@ Config.Technologies = true
 -- Here you can switch cheats on.
 -- Keep in mind, this breaks the game!
 
-Config.Infinite_Resources = false
-Config.Resource_Easier_To_Mine = false
-Config.Super_Size_Resources = false
+Config.Infinite_Resources = true
+Config.Resource_Easier_To_Mine = true
+Config.Super_Size_Resources = true
 Config.Super_Size_Resources_Size = 500000
 -- Resource Changes
 
