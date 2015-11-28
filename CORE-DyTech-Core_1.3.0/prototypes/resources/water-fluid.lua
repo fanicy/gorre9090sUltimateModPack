@@ -1,5 +1,5 @@
-data.raw["fluid"]["water"].pressure_to_speed_ratio = 0.6
-data.raw["fluid"]["water"].flow_to_energy_ratio = 0.885
+data.raw["fluid"]["water"].pressure_to_speed_ratio = 10
+data.raw["fluid"]["water"].flow_to_energy_ratio = 10
 data.raw["fluid"]["water"].icon = "__CORE-DyTech-Core__/graphics/fluid/dirty-water.png"
 
 data:extend(
@@ -14,8 +14,8 @@ data:extend(
     flow_color = {r=0.7, g=0.7, b=0.7},
     icon = "__base__/graphics/icons/fluid/water.png",
     order = "clean-water",
-    pressure_to_speed_ratio = 0.6,
-    flow_to_energy_ratio = 0.885,
+    pressure_to_speed_ratio = 10,
+    flow_to_energy_ratio = 10,
     subgroup = "metallurgy-fluid-intermediate",
   },
 }
