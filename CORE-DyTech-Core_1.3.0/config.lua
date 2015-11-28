@@ -14,7 +14,7 @@ Config.Technologies = true
 
 Config.Infinite_Resources = true
 Config.Resource_Easier_To_Mine = true
-Config.Super_Size_Resources = true
+Config.Super_Size_Resources = false
 Config.Super_Size_Resources_Size = 500000
 -- Resource Changes
 
