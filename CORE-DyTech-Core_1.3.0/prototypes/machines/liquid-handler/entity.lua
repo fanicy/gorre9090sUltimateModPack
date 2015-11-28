@@ -97,14 +97,14 @@ data:extend(
         }
       }
     },
-    crafting_speed = 0.75,
+    crafting_speed = 4,
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
       emissions = 0.01 / 2.5
     },
-    energy_usage = "50kW",
+    energy_usage = "0kW",
     module_specification =
     {
       module_slots = 2
