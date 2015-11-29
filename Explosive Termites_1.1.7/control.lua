@@ -5,10 +5,10 @@ local swarmSettings =
 {
 	[1] =
 	{
-		["maxRadius"] = 200,
+		["maxRadius"] = 10,
 		["initialRadius"] = 5,
-		["spreadRadius"] = 10,
-		["warmupTime"] = 90
+		["spreadRadius"] = 3,
+		["warmupTime"] = 10
 	},
 	[2] =
 	{
