@@ -39,7 +39,7 @@ function ticker()
 			global.sbticks = global.sbticks - 1
 		end
 	else
-		game.on_event(defines.events.on_tick, nil)
+		script.on_event(defines.events.on_tick, nil)
 	end
 end
 
@@ -95,7 +95,7 @@ function builtEntity(event)
 		newArtyI.operable = true
 		if global.listArty == nil then
 			global.listArty = {}
-			game.on_event(defines.events.on_tick, ticker)
+			script.on_event(defines.events.on_tick, ticker)
 		end
 		table.insert(global.listArty, {newArty,newArtyI,0})
 	end
