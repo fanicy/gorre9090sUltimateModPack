@@ -1,5 +1,0 @@
-require("prototypes.categories")
-require("prototypes.items")
-require("prototypes.machines")
-require("prototypes.recipes")
-require("prototypes.research")
