@@ -1,9 +1,0 @@
-Change log:
-===========
-   - Version 0.11.1: Initial version based on regular pump/boiler.
-
-   - Version 0.11.2: Simplify everything. Remove pumping code since the entity is already a pump.
-
-   - Version 0.11.3: Fix a nasty bug because we incorrectly use table.remove()
-
-

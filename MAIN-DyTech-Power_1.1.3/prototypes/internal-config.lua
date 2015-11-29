@@ -134,7 +134,7 @@ SolarPanels = {
 		Tier2 = "453kW", --453.3333
 		Tier3 = "1717kW",
 		Tier4 = "9656kW",
-		Tier5 = "80672kW"
+		Tier5 = "800672kW"
 	}
 }
 
