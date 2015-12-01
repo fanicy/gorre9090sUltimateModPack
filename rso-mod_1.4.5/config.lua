@@ -16,7 +16,7 @@ override_type = 'full'    -- 'full' - no spawns by game are allowed, 'partially'
 
 use_donut_shapes = false		-- setting this to false will remove donuts from possible resource layouts
 
-starting_area_size = 1         	-- starting area in regions, safe from random nonsense
+starting_area_size = 2         	-- starting area in regions, safe from random nonsense
 
 absolute_resource_chance = 1 -- chance to spawn an resource in a region
 starting_richness_mult = 5		-- multiply starting area richness for resources
