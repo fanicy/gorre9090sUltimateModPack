@@ -1748,6 +1748,78 @@ repl_recipe({
 	time=battery_cost + circuit_2_cost + (plate_cost * 3 + gear_cost + circuit_1_cost * 7) + steel_cost,
 	prerequisites={'repltech-battery', circuit_2_repltech, 'repltech-smart-inserter', 'repltech-steel-plate'}
 })
+repl_recipe({
+	name='science-pack-4',
+	itemName='science-pack-4',
+	repltype='science',
+	tier=5,
+	item='science-pack-4',
+	time=battery_cost + circuit_2_cost + (plate_cost * 3 + gear_cost + circuit_1_cost * 7) + steel_cost,
+	prerequisites={'repltech-battery', circuit_2_repltech, 'repltech-smart-inserter', 'repltech-steel-plate'}
+})
+repl_recipe({
+	name='science-pack-gold',
+	itemName='science-pack-gold',
+	repltype='science',
+	tier=5,
+	item='science-pack-gold',
+	time=battery_cost + circuit_2_cost + (plate_cost * 3 + gear_cost + circuit_1_cost * 7) + steel_cost,
+	prerequisites={'repltech-battery', circuit_2_repltech, 'repltech-smart-inserter', 'repltech-steel-plate'}
+})
+repl_recipe({
+	name='alien-science-pack-blue',
+	itemName='alien-science-pack-blue',
+	repltype='science',
+	tier=5,
+	item='alien-science-pack-blue',
+	time=battery_cost + circuit_2_cost + (plate_cost * 3 + gear_cost + circuit_1_cost * 7) + steel_cost,
+	prerequisites={'repltech-battery', circuit_2_repltech, 'repltech-smart-inserter', 'repltech-steel-plate'}
+})
+repl_recipe({
+	name='alien-science-pack-orange',
+	itemName='alien-science-pack-orange',
+	repltype='science',
+	tier=5,
+	item='alien-science-pack-orange',
+	time=battery_cost + circuit_2_cost + (plate_cost * 3 + gear_cost + circuit_1_cost * 7) + steel_cost,
+	prerequisites={'repltech-battery', circuit_2_repltech, 'repltech-smart-inserter', 'repltech-steel-plate'}
+})
+repl_recipe({
+	name='alien-science-pack-purple',
+	itemName='alien-science-pack-purple',
+	repltype='science',
+	tier=5,
+	item='alien-science-pack-purple',
+	time=battery_cost + circuit_2_cost + (plate_cost * 3 + gear_cost + circuit_1_cost * 7) + steel_cost,
+	prerequisites={'repltech-battery', circuit_2_repltech, 'repltech-smart-inserter', 'repltech-steel-plate'}
+})
+repl_recipe({
+	name='alien-science-pack-red',
+	itemName='alien-science-pack-red',
+	repltype='science',
+	tier=5,
+	item='alien-science-pack-red',
+	time=battery_cost + circuit_2_cost + (plate_cost * 3 + gear_cost + circuit_1_cost * 7) + steel_cost,
+	prerequisites={'repltech-battery', circuit_2_repltech, 'repltech-smart-inserter', 'repltech-steel-plate'}
+})
+repl_recipe({
+	name='alien-science-pack-yellow',
+	itemName='alien-science-pack-yellow',
+	repltype='science',
+	tier=5,
+	item='alien-science-pack-yellow',
+	time=battery_cost + circuit_2_cost + (plate_cost * 3 + gear_cost + circuit_1_cost * 7) + steel_cost,
+	prerequisites={'repltech-battery', circuit_2_repltech, 'repltech-smart-inserter', 'repltech-steel-plate'}
+})
+repl_recipe({
+	name='alien-science-pack-green',
+	itemName='alien-science-pack-green',
+	repltype='science',
+	tier=5,
+	item='alien-science-pack-green',
+	time=battery_cost + circuit_2_cost + (plate_cost * 3 + gear_cost + circuit_1_cost * 7) + steel_cost,
+	prerequisites={'repltech-battery', circuit_2_repltech, 'repltech-smart-inserter', 'repltech-steel-plate'}
+	})
 
 
 -- Modules
